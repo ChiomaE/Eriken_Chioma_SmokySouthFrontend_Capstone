@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('QUICKSAND-VARIABLEFONT_WGHT.TTF');
+  }
+
+  
+
+.container {
+   /*  display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    margin-bottom: 20px;
+    
+}
+
+.cartList {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: end;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    gap: 7px;
+    list-style: none;
+}
+
+.foodInfo {
+    display: flex;
+   /*  justify-content: end; */
+    gap: 20px;
+    align-items: center;
+
+}
+
+.cartList li {
+    display: flex;
+    justify-content: center;
+    
+    justify-content: space-evenly;
+    font-family: 'Quicksand';
+    font-weight: 600;
+
+}
+
+.checkout {
+    font-family: 'Rockwell';
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.checkout button {
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 18px;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #121212;
+    color: #F9F9F9;
+    padding: 3px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.checkout button a:link {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+.checkout button:hover {
+    background-color: #790B0B;
+    text-decoration: none;
+
+}
+
+.priceandbtn {
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.deleteBtn {
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 14px;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #790B0B;
+    color: #F9F9F9;
+    padding: 3px;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.deleteBtn:hover {
+    background-color: #121212;
+    text-decoration: none;
+
+}

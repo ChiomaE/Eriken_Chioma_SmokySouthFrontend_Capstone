@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Rockwell';
+    src: url('ROCC____.TTF');
+  }
+
+  @font-face {
+    font-family: 'Quicksand';
+    src: url('QUICKSAND-VARIABLEFONT_WGHT.TTF');
+  }
+
+.Card {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+.foodContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Rockwell';
+    width: 291px;
+    height: 330px;
+    /* border: 1px solid rgba(0, 0, 0, 0.212); */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    
+}
+
+.foodDescription {
+    padding: 10px 3px;
+    font-family: 'Quicksand';
+}
+
+#priceandbtn {
+    display: flex;
+    align-items: center;
+}
+
+.cartBtn {
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 16px;
+    width: 140px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #790B0B;
+    color: #F9F9F9;
+    margin-left: 10px;
+    padding: 3px;
+    border: none;
+    cursor: pointer;
+}

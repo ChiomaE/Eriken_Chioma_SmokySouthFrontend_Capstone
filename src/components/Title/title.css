@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Rockwell';
+    src: url('ROCC____.TTF');
+  }
+
+h1 {
+    font-family: 'Rockwell';
+    margin: .5rem 0 0 .5rem;
+    text-align: center;
+}

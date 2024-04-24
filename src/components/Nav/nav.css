@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Retroking';
+    src: url('RETROKING-VGQVL.TTF');
+  }
+  @font-face {
+    font-family: 'Rockwell';
+    src: url('ROCC____.TTF');
+  }
+
+.Nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #F9F9F9;
+    background-color: #790B0B;
+    width: 100vw;
+    height: 100px;
+    
+}
+
+.logo {
+    font-size: 55px;
+    font-family: 'Retroking', sans-serif;
+    text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+         1px 0 #000,
+    1px  1px 0 #000,
+    1px  0   0 #000;
+    -webkit-text-stroke: .01px rgba(12, 11, 11, 0.658);
+    filter: drop-shadow(0 4px rgb(0,0,0, .4));
+    padding-top: 10px;   
+}
+
+.nav-sub {
+    font-family: 'Rockwell', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    padding-bottom: 25px;
+    list-style: none;
+    
+}
+
+.nav-sub a {
+    text-decoration: none;
+    color: inherit;
+}
